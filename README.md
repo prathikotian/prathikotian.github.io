@@ -1,3 +1,3 @@
 # prathikotian.github.io
 
-#@prathikotian official github page
+[@prathikotian](https://github.com/prathikotian) official github page
