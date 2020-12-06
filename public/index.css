@@ -24,9 +24,14 @@ section {
     z-index: 100;
 }
 
-h1 {
+h1,
+#robertfrost {
     font-size: 4vmax;
     margin-top: 0;
+}
+
+#robertfrost:hover {
+    color: rgba(255,255,255,.8);    
 }
 
 pre {
