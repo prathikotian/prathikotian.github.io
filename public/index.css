@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@1&family=Noto+Sans:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: rgba(255,255,255,.8);
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background: border-box darkolivegreen url("/public/img/matteo-cancellieri-vo6IB0e6hZU-unsplash.jpg") no-repeat center/cover;
+    filter: opacity(85%);
+}
+
+section {
+    padding-left: 3rem;
+    position: relative;
+    top: 25%;
+    z-index: 100;
+}
+
+h1 {
+    font-size: 4vmax;
+    margin-top: 0;
+}
+
+pre {
+    font-family: 'IM Fell DW Pica', serif;
+    font-size: 3.5vmin;
+}
+
+small {
+    position: absolute;
+    left: 3rem;
+    bottom: 1rem;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #fff;
+    font-size: 12px;
+}
+
+svg {
+    width: 15px;
+}
+
+span {
+    padding-bottom: 5px;
+}
+
+.contact ul {
+    position: absolute;
+    right: 3rem;
+    bottom: 1rem;
+    display: flex;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+    padding: .5rem;
+}
+
+li svg {
+    width: 20px;
+}
