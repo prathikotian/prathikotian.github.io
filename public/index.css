@@ -13,15 +13,12 @@ body {
 main {
     width: 100vw;
     height: 100vh;
-    background: border-box darkolivegreen url("/public/img/matteo-cancellieri-vo6IB0e6hZU-unsplash.jpg") no-repeat center/cover;
+    background: border-box rgb(151, 160, 136) url("./img/matteo-cancellieri-vo6IB0e6hZU-unsplash.jpg") no-repeat center/cover;
     filter: opacity(85%);
 }
 
-section {
-    padding-left: 3rem;
-    position: relative;
-    top: 25%;
-    z-index: 100;
+.hero {
+    padding: 20vmin 3rem 0;
 }
 
 h1,
@@ -36,13 +33,14 @@ h1,
 
 pre {
     font-family: 'IM Fell DW Pica', serif;
-    font-size: 3.5vmin;
+    font-size: 4vmin;
 }
 
 small {
     position: absolute;
     left: 3rem;
     bottom: 1rem;
+    padding: 1rem .5rem;
 }
 
 a {
@@ -75,4 +73,16 @@ li {
 
 li svg {
     width: 20px;
+}
+
+@media(max-width: 600px) {
+    small {
+        bottom: 3.5rem;
+    }
+
+    .contact ul {
+        left: 3rem;
+        bottom: 1rem;
+        padding-left: 0;
+    }
 }
